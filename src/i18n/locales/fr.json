@@ -1,0 +1,308 @@
+{
+  "projectDetail": {
+    "notFound": "Projet introuvable",
+    "notFoundDesc": "Le projet que vous recherchez n'existe pas.",
+    "viewAll": "Voir Tous les Projets",
+    "backToProjects": "Retour aux Projets",
+    "keyFeatures": "Fonctionnalités Clés",
+    "featuresSubtitle": "Explorez les principales fonctionnalités de ce projet",
+    "aboutProject": "À Propos de ce Projet",
+    "technologies": "Technologies Utilisées",
+    "similarProject": "Besoin d'un projet similaire ?",
+    "similarProjectCta": "Discutons de votre projet et créons quelque chose d'incroyable ensemble.",
+    "contactUs": "Nous Contacter",
+    "prevProject": "Projet Précédent",
+    "nextProject": "Projet Suivant",
+    "livePreview": "Voir en Direct"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "projects": "Projets",
+     "team": "Équipe",
+    "contact": "Contact",
+    "getQuote": "Obtenir un devis"
+  },
+  "hero": {
+    "badge": "Agence digitale créative",
+    "title1": "Boostez votre business",
+    "title2": "avec nous",
+    "subtitle": "Attirez plus de clients grâce à :",
+    "typewriter": ["Sites Web performants", "Applications Web modernes", "Applications Mobiles intuitives", "Marketing Digital efficace"],
+    "cta1": "Obtenir un devis gratuit",
+    "cta2": "Découvrir nos services"
+  },
+  "about": {
+    "label": "À propos",
+    "title": "Faites briller votre entreprise en ligne",
+    "p1": "Bienvenue chez <strong>Diphant</strong>, votre partenaire digital de confiance pour transformer vos idées en solutions numériques concrètes.",
+    "p2": "Nous combinons innovation et expertise technique pour créer des solutions personnalisées qui renforcent votre présence en ligne.",
+    "p3": "Nous ne faisons pas seulement des sites web ou applications mobiles : nous créons des expériences digitales engageantes qui stimulent votre croissance.",
+    "cta": "Obtenir un devis",
+    "whyUsTitle": "Pourquoi choisir Diphant ?",
+    "whyUs": {
+      "lowPrice": {
+        "title": "Prix compétitifs",
+        "description": "Des services digitaux performants à tarif maîtrisé, en garantissant l’excellence."
+      },
+      "rapidity": {
+        "title": "Livraison rapide",
+        "description": "Nous respectons les délais pour mettre votre projet en ligne rapidement."
+      },
+      "support": {
+        "title": "Support client",
+        "description": "Une équipe disponible pour vous accompagner dans vos projets digitaux."
+      },
+      "quality": {
+        "title": "Qualité premium",
+        "description": "Un travail soigné respectant les standards techniques les plus élevés."
+      }
+    }
+  },
+  "services": {
+    "label": "Nos Services",
+    "title": "Solutions digitales pour votre succès",
+    "subtitle": "De l'idée au lancement, nous vous accompagnons à chaque étape pour maximiser vos résultats.",
+    "cta1": "Démarrer un projet",
+    "cta2": "Voir tous les services",
+    "items": {
+      "websites": {
+        "title": "Sites Web",
+        "description": "Sites Web modernes, rapides et optimisés conçus pour transformer vos visiteurs en clients fidèles",
+        "features": ["Design responsive", "SEO avancé", "Performance optimale", "CMS facile à gérer"]
+      },
+      "mobile": {
+        "title": "Applications Mobiles",
+        "description": "Applications iOS et Android natives ou hybrides pour atteindre vos clients partout.",
+        "features": ["iOS & Android natif", "Applications hybrides", "Expérience utilisateur optimisée", "Notifications push"]
+      },
+      "webapps": {
+        "title": "Applications Web",
+        "description": "Solutions web sur mesure, dashboards et outils métiers pour digitaliser vos processus.",
+        "features": ["Développement personnalisé", "Dashboards interactifs", "Intégration API", "Architecture scalable"]
+      },
+      "marketing": {
+        "title": "Marketing Digital",
+        "description": "Stratégies digitales pour augmenter votre visibilité et vos ventes.",
+        "features": ["Stratégie de contenu", "Réseaux sociaux", "Publicité en ligne", "Email marketing"]
+      },
+      "design": {
+        "title": "Design UI/UX",
+        "description": "Interfaces utilisateur intuitives et esthétiques pour captiver vos utilisateurs.",
+        "features": ["Wireframes & prototypes", "Design system", "Tests utilisateurs", "Accessibilité"]
+      },
+      "seo": {
+        "title": "Optimisation SEO",
+        "description": "Améliorez votre classement dans Google et générez plus de trafic organique.",
+        "features": ["Recherche de mots-clés", "SEO on-page", "SEO technique", "Link building"]
+      },
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "description": "Assurez le bon fonctionnement et la sécurité de vos projets digitaux.",
+        "features": ["Mises à jour régulières", "Correctifs de sécurité", "Surveillance de la performance", "Correction de bugs"]
+      }
+    },
+    "process": {
+      "label": "Notre Processus",
+      "title": "Comment nous travaillons",
+      "subtitle": "Méthodologie claire pour garantir le succès de chaque projet.",
+      "steps": {
+        "discovery": {
+          "title": "Découverte",
+          "description": "Analyse de vos besoins et objectifs pour définir la stratégie idéale."
+        },
+        "design": {
+          "title": "Conception",
+          "description": "Création de maquettes et prototypes pour visualiser le projet."
+        },
+        "development": {
+          "title": "Développement",
+          "description": "Développement agile avec communication transparente."
+        },
+        "launch": {
+          "title": "Lancement",
+          "description": "Tests, mise en ligne et accompagnement pour un lancement réussi."
+        }
+      }
+    },
+    "stats": {
+      "projects": "Projets réalisés",
+      "clients": "Clients satisfaits",
+      "response": "Réactivité",
+      "secure": "Projets sécurisés"
+    },
+    "cta": {
+      "title": "Prêt à commencer ?",
+      "subtitle": "Contactez-nous pour un devis gratuit et une consultation personnalisée.",
+      "button": "Contactez-nous"
+    }
+  },
+  "strategy": {
+    "label": "Stratégie",
+    "title": "Notre approche de développement",
+    "subtitle": "Un processus éprouvé pour transformer vos idées en solutions digitales performantes.",
+    "steps": {
+      "discovery": {
+        "title": "Plannification",
+        "description": "Nous analysons ensemble vos besoins, votre marché et vos objectifs pour une stratégie personnalisée."
+      },
+      "design": {
+        "title": "Conception",
+        "description": "Maquettes et prototypes interactifs pour valider l’UX/UI avant le développement."
+      },
+      "development": {
+        "title": "Construction",
+        "description": "Développement technique avec les technologies les plus évolutives pour une meilleure performance."
+      },
+      "launch": {
+        "title": "Lancement",
+        "description": "Tests rigoureux, optimisation et mise en ligne dans les meilleures conditions."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Assistance continue et maintenance pour assurer le succès durable du projet."
+      }
+    }
+  },
+  "works": {
+    "label": "Projets",
+    "title": "Nos réalisations récentes",
+    "subtitle": "Découvrez nos projets qui illustrent notre créativité et expertise.",
+    "viewAll": "Voir tous les projets",
+    "backToHome": "Retour à l'accueil",
+    "pageTitle": "Nos Projets",
+    "pageSubtitle": "Explorez notre portfolio et découvrez comment nous transformons vos idées en projets numériques uniques.",
+    "noProjects": "Aucun projet trouvé pour cette catégorie.",
+    "ctaTitle": "Prêt à créer votre projet ?",
+    "ctaSubtitle": "Discutons de vos idées et transformons-les en solutions digitales.",
+    "contactUs": "Nous contacter",
+    "backHome": "Retour à l'accueil"
+  },
+  "contact": {
+    "backToHome": "Retour à l'accueil",
+    "title": "Contactez-nous",
+    "subtitle": "Transformez vos idées en réalité digitale. Envoyez-nous un message et nous répondrons sous 24h.",
+    "infoTitle": "Informations de contact",
+    "infoSubtitle": "Pour toute question ou demande de devis, contactez-nous.",
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "responseTime": "Réponse sous",
+    "within24h": "24 heures",
+    "unlimitedEmails": "Emails illimités & gratuits",
+    "unlimitedEmailsDesc": "Formulaire via Web3Forms : 100% gratuit et sans limite d’envoi, recevez +300 messages.",
+    "formTitle": "Envoyez-nous un message",
+    "fullName": "Nom complet",
+    "yourName": "Votre nom",
+    "emailLabel": "Email",
+    "emailPlaceholder": "votre@email.com",
+    "company": "Entreprise",
+    "companyPlaceholder": "Nom de l'entreprise",
+    "phonePlaceholder": "+33 6 12 34 56 78",
+    "projectType": "Type de projet",
+    "selectProjectType": "Sélectionnez un type",
+    "projectTypes": {
+      "website": "Site Web",
+      "webapp": "Application Web",
+      "mobileapp": "Application Mobile",
+      "marketing": "Marketing Digital",
+      "design": "Design UI/UX",
+      "other": "Autre"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Décrivez votre projet...",
+    "sending": "Envoi...",
+    "send": "Envoyer",
+    "success": "Message envoyé !",
+    "successDesc": "Merci, nous avons reçu votre message et vous répondrons rapidement.",
+    "sendAnother": "Envoyer un autre message",
+    "error": "Erreur lors de l'envoi. Réessayez.",
+    "requiredFields": "Veuillez remplir tous les champs obligatoires",
+    "invalidEmail": "Adresse email invalide",
+    "setupNote": "Pour activer l'envoi d’emails, créez un compte gratuit sur",
+    "setupNote2": "(30 secondes) et remplacez la clé d’accès dans le code. Gratuit et illimité !",
+    "whatsapp": "WhatsApp",
+    "whatsappChat": "Discuter sur WhatsApp",
+    "addressValue": "123 Avenue du Digital\n75008 Paris, France"
+  },
+  "footer": {
+    "description": "Votre partenaire digital pour transformer vos idées en projets numériques.",
+    "servicesTitle": "Services",
+    "companyTitle": "Entreprise",
+    "copyright": "Tous droits réservés."
+  },
+  "categories": {
+    "all": "Tous",
+    "website": "Site Web",
+    "webapp": "Application Web",
+    "mobileapp": "Application Mobile",
+    "marketing": "Marketing Digital",
+    "branding": "Branding"
+  },
+  "common": {
+    "step": "Étape"
+  },"serviceProcess": {
+  "title": "Pourquoi Travailler Avec Nous",
+  "subtitle": "Des solutions simples qui fonctionnent.",
+  "items": {
+    "approach": {
+      "title": "On Écoute",
+      "description": "On comprend vos besoins et on les réalise."
+    },
+    "technology": {
+      "title": "Les Bons Outils",
+      "description": "On utilise la meilleure technologie pour que tout soit rapide et sûr."
+    },
+    "collaboration": {
+      "title": "Travail d’Équipe",
+      "description": "On travaille avec vous à chaque étape."
+    },
+    "results": {
+      "title": "Résultats Réels",
+      "description": "On fait que ça marche et on obtient des résultats qui comptent."
+    }
+  }
+},
+  "team": {
+  "head": "ÉQUIPE D’EXPERTS",
+  "badge": "Le Fondateur",
+  "title1": "La vision derrière",
+  "title2": "votre succès",
+  "subtitle": "Un expert passionné dédié à transformer votre vision digitale en réalité.",
+    "valuesTitle": "Nos Valeurs",
+    "valuesSubtitle": "Les principes qui guident tout ce que nous faisons.",
+    "roles": {
+      "ceo": "PDG & Fondateur",
+      "cto": "Directeur Technique",
+      "lead_dev": "Développeur Principal",
+      "designer": "Designer UI/UX",
+      "marketing": "Directeur Marketing",
+      "pm": "Chef de Projet"
+    },
+  "ceo": {
+    "descriptionTitle": "À propos de Mohamad",
+    "description": "Avec plus de 4 ans d'expérience dans le développement de sites web, applications mobiles et stratégies de marketing digital, Alzaibak Mohamad a obtenu un Bachelor en Concepteur Développeur de Solutions Digitales de HETIC. j'ai fondé Diphant pour rendre les technologies digitales accessibles et efficaces pour toutes les entreprises.",
+    "quote": "La technologie doit faciliter la vie des entreprises. Chez Diphant, nous créons des solutions digitales simples, puissantes et efficaces pour aider les entreprises à réussir.",
+    "stats": {
+      "years": "Années d'expérience",
+      "projects": "Projets réalisés",
+      "passion": "Dévouement"
+    }
+  }, "values": {
+    "dedication": {
+      "title": "Engagement",
+      "description": "Nous mettons tout en œuvre pour la réussite de chaque projet."
+    },
+    "excellence": {
+      "title": "Excellence",
+      "description": "Nous visons la qualité et l’efficacité dans chaque projet."
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "Nous travaillons main dans la main avec nos clients pour atteindre leurs objectifs."
+    }
+  }
+}
+}
+

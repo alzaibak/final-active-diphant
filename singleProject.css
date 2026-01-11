@@ -1,0 +1,200 @@
+/* project-detail.css */
+#projectArea h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #111;
+}
+
+#projectArea .metadata {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+  padding: 2rem;
+  background: #f8f8f8;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#projectArea .metadata strong {
+  color: #0066cc;
+}
+
+#projectArea .description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+#projectArea .quote {
+  font-style: italic;
+  font-size: 1.4rem;
+  padding-left: 2rem;
+  border-left: 4px solid #0066cc;
+  margin: 3rem 0;
+  color: #333;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin: 4rem 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100vh;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.galleryImg img:hover {
+  transform: scale(1.02);
+}
+
+.gallery figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+.heading-section p{
+    height: 100%;
+}
+
+.heading-section p{
+line-height: 2.5;}
+
+.back-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #0066cc;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-btn:hover {
+  background: #0052a3;
+  color: white;
+}
+
+.header-banner {
+    width: 100%;
+    height: 100vh;             /* or 100vh */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility !important;
+}
+
+/* Make navbar brand (logo text) white + bold */
+.navbar-brand {
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 1.6rem; /* increase size */
+}
+
+/* Make all nav links white + bold */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 1.4rem; /* slightly bigger */
+}
+
+/* Hover color */
+.navbar-nav .nav-link:hover {
+    color: #f0f0f0 !important;
+}
+
+/* Optional: active link */
+.navbar-nav .active > .nav-link {
+    color: #ffffff !important;
+    font-weight: 900 !important;
+}
+
+/* Make the logo image visible on dark backgrounds */
+.logo-container img {
+    filter: brightness(100%);
+    height: 45px;   /* Adjust if needed */
+}
+
+
+/* Mobile: screens smaller than 768px */
+@media (max-width: 767px) {
+
+  /* Navbar brand (logo text) smaller */
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  /* Navbar links smaller */
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem; /* less padding */
+  }
+
+  /* Logo image smaller */
+  .logo-container img {
+    height: 35px;
+  }
+
+  /* Project header title smaller */
+  .header-title {
+    font-size: 3rem;
+  }
+
+  /* Project gallery images smaller */
+  .project-main .col-md-4 img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Reduce spacing for small screens */
+  .project-description {
+    font-size: 0.95rem;
+  }
+}
+
+/* Tablet: screens between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Navbar brand */
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+
+  /* Navbar links */
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Project header title */
+  .header-title {
+    font-size: 3.5rem;
+  }
+
+  /* Project description */
+  .project-description {
+    font-size: 1rem;
+  }
+}
+
+

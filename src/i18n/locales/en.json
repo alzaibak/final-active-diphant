@@ -1,0 +1,349 @@
+{
+  "projectDetail": {
+    "notFound": "Project not found",
+    "notFoundDesc": "The project you are looking for does not exist.",
+    "viewAll": "View All Projects",
+    "backToProjects": "Back to Projects",
+    "keyFeatures": "Key Features",
+    "featuresSubtitle": "Explore the main functionalities of this project",
+    "aboutProject": "About This Project",
+    "technologies": "Technologies Used",
+    "similarProject": "Need a similar project?",
+    "similarProjectCta": "Let's discuss your project and create something amazing together.",
+    "contactUs": "Contact Us",
+    "prevProject": "Previous Project",
+    "nextProject": "Next Project",
+    "livePreview": "Live Preview"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "projects": "Projects",
+    "team": "Team",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "hero": {
+    "badge": "Digital Agency",
+    "title1": "Grow your business",
+    "title2": "with us",
+    "subtitle": "We bring you more customers with:",
+    "typewriter": [
+      "Professional Websites.",
+      "Web Applications.",
+      "Mobile Applications.",
+      "Digital Marketing."
+    ],
+    "cta1": "Get a Free Quote",
+    "cta2": "Explore Our Services"
+  },
+  "about": {
+    "label": "About Us",
+    "title": "We build digital solutions that help businesses grow",
+    "p1": "Welcome to <strong>Diphant</strong>, a digital agency focused on creating effective and reliable digital solutions for modern businesses.",
+    "p2": "We combine strategy, design, and technology to help you build a strong online presence and attract the right customers.",
+    "p3": "Our goal is simple: create websites, applications, and digital strategies that deliver real results.",
+    "cta": "Get a Quote",
+    "whyUsTitle": "Why Work With Us?",
+    "whyUs": {
+      "lowPrice": {
+        "title": "Fair Pricing",
+        "description": "High-quality digital solutions at transparent and competitive prices."
+      },
+      "rapidity": {
+        "title": "Fast Execution",
+        "description": "Clear timelines and fast delivery without sacrificing quality."
+      },
+      "support": {
+        "title": "Reliable Support",
+        "description": "We stay available to support you before and after launch."
+      },
+      "quality": {
+        "title": "Quality Focused",
+        "description": "Clean code, modern design, and attention to detail in every project."
+      }
+    }
+  },
+  "services": {
+    "label": "Our Services",
+    "title": "Everything you need to succeed online",
+    "subtitle": "From planning to launch, we manage your digital project from start to finish.",
+    "cta1": "Start Your Project",
+    "cta2": "See All Services",
+    "items": {
+      "websites": {
+        "title": "Website Development",
+        "description": "Fast, responsive, and SEO-friendly websites designed to convert visitors into customers.",
+        "features": [
+          "Responsive design",
+          "SEO-ready structure",
+          "Fast loading speed",
+          "Easy content management"
+        ]
+      },
+      "mobile": {
+        "title": "Mobile Applications",
+        "description": "iOS and Android apps built for performance, usability, and scalability.",
+        "features": [
+          "Native & hybrid apps",
+          "Modern UI/UX",
+          "High performance",
+          "Push notifications"
+        ]
+      },
+      "webapps": {
+        "title": "Web Applications",
+        "description": "Custom web platforms to automate processes and improve productivity.",
+        "features": [
+          "Custom development",
+          "Admin dashboards",
+          "API integrations",
+          "Scalable architecture"
+        ]
+      },
+      "marketing": {
+        "title": "Digital Marketing",
+        "description": "Data-driven strategies to increase traffic, leads, and conversions.",
+        "features": [
+          "Content strategy",
+          "Social media marketing",
+          "Paid advertising",
+          "Performance tracking"
+        ]
+      },
+      "design": {
+        "title": "UI/UX Design",
+        "description": "User-focused design that improves usability and engagement.",
+        "features": [
+          "Wireframes & prototypes",
+          "User-centered design",
+          "Usability testing",
+          "Accessibility best practices"
+        ]
+      },
+      "seo": {
+        "title": "SEO Optimization",
+        "description": "Improve your visibility on search engines and attract qualified traffic.",
+        "features": [
+          "Keyword research",
+          "On-page SEO",
+          "Technical SEO",
+          "Link building"
+        ]
+      },
+      "maintenance": {
+        "title": "Maintenance & Support",
+        "description": "Keep your website and applications secure, updated, and fast.",
+        "features": [
+          "Regular updates",
+          "Security monitoring",
+          "Performance optimization",
+          "Bug fixing"
+        ]
+      }
+    },
+    "process": {
+      "label": "Our Process",
+      "title": "How We Work",
+      "subtitle": "A clear and simple process that delivers results.",
+      "steps": {
+  "discovery": {
+    "title": "Planning",
+    "description": "We analyze your needs, market, and goals together to create a personalized strategy."
+  },
+  "design": {
+    "title": "Design",
+    "description": "Interactive wireframes and prototypes to validate UX/UI before development."
+  },
+  "development": {
+    "title": "Development",
+    "description": "Technical development using scalable technologies for optimal performance."
+  },
+  "launch": {
+    "title": "Launch",
+    "description": "Thorough testing, optimization, and deployment under the best conditions."
+  },
+  "support": {
+    "title": "Support",
+    "description": "Ongoing assistance and maintenance to ensure long-term project success."
+  }
+}
+
+    },
+    "stats": {
+      "projects": "Completed projects",
+      "clients": "Happy clients",
+      "response": "Fast response",
+      "secure": "Secure systems"
+    },
+    "cta": {
+      "title": "Let’s build something great together",
+      "subtitle": "Tell us about your project and get a free quote.",
+      "button": "Contact Us"
+    }
+  },
+  "strategy": {
+    "label": "Our Strategy",
+    "title": "A simple and effective development approach",
+    "subtitle": "We follow a structured process to deliver reliable digital products.",
+    "steps": {
+      "discovery": {
+        "title": "Research",
+        "description": "Understanding your business, market, and objectives."
+      },
+      "design": {
+        "title": "Planning & Design",
+        "description": "Designing solutions that solve real problems."
+      },
+      "development": {
+        "title": "Build",
+        "description": "Developing with modern technologies and best practices."
+      },
+      "launch": {
+        "title": "Launch",
+        "description": "Testing and deploying your product smoothly."
+      },
+      "support": {
+        "title": "Ongoing Support",
+        "description": "Continuous improvements and long-term support."
+      }
+    }
+  },
+  "works": {
+    "label": "Our Work",
+    "title": "Recent Projects",
+    "subtitle": "A selection of projects we’ve delivered for our clients.",
+    "viewAll": "View All Projects",
+    "backToHome": "Back to Home",
+    "pageTitle": "Projects",
+    "pageSubtitle": "See how we turn ideas into working digital products.",
+    "noProjects": "No projects available in this category.",
+    "ctaTitle": "Have a project in mind?",
+    "ctaSubtitle": "Let’s talk and bring your idea to life.",
+    "contactUs": "Contact Us",
+    "backHome": "Back to Home"
+  },
+  "contact": {
+    "backToHome": "Back to Home",
+    "title": "Contact Us",
+    "subtitle": "Tell us about your project and we’ll get back to you within 24 hours.",
+    "infoTitle": "Contact Details",
+    "infoSubtitle": "We’re happy to answer your questions.",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "responseTime": "Response Time",
+    "within24h": "Within 24 hours",
+    "unlimitedEmails": "Unlimited Messages",
+    "unlimitedEmailsDesc": "Send as many messages as you want using our free contact form.",
+    "formTitle": "Send a Message",
+    "fullName": "Full Name",
+    "yourName": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "company": "Company",
+    "companyPlaceholder": "Company name",
+    "phonePlaceholder": "+1 234 567 890",
+    "projectType": "Project Type",
+    "selectProjectType": "Select project type",
+     "whatsapp": "WhatsApp",
+    "whatsappChat": "Chat on WhatsApp",
+    "addressValue": "123 Digital Avenue\n75008 Paris, France",
+    "projectTypes": {
+      "website": "Website",
+      "webapp": "Web Application",
+      "mobileapp": "Mobile Application",
+      "marketing": "Digital Marketing",
+      "design": "UI/UX Design",
+      "other": "Other"
+    },
+    "message": "Message",
+    "messagePlaceholder": "Briefly describe your project...",
+    "sending": "Sending...",
+    "send": "Send Message",
+    "success": "Message sent successfully",
+    "successDesc": "We’ll contact you shortly.",
+    "sendAnother": "Send Another Message",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "description": "We help businesses grow with smart digital solutions.",
+    "servicesTitle": "Services",
+    "companyTitle": "Company",
+    "copyright": "All rights reserved."
+  },
+  "categories": {
+    "all": "All",
+    "website": "Website",
+    "webapp": "Web Application",
+    "mobileapp": "Mobile Application",
+    "marketing": "Digital Marketing",
+    "branding": "Branding"
+  },
+  "common": {
+    "step": "Step"
+  },"serviceProcess": {
+  "title": "Why Work With Us",
+  "subtitle": "Simple solutions that get results.",
+  "items": {
+    "approach": {
+      "title": "We Listen",
+      "description": "We understand what you need and make it happen."
+    },
+    "technology": {
+      "title": "Right Tools",
+      "description": "We use the best technology to make things fast and safe."
+    },
+    "collaboration": {
+      "title": "Teamwork",
+      "description": "We work with you every step of the way."
+    },
+    "results": {
+      "title": "Proven Results",
+      "description": "We make things work and deliver results that matter."
+    }
+  }
+},
+  "team": {
+    "head": "EXPERT TEAM",
+    "badge": "The Founder",
+    "title1": "The vision behind",
+    "title2": "your success",
+    "subtitle": "A passionate expert dedicated to turning your digital vision into reality.",
+    "valuesTitle": "Our Values",
+    "valuesSubtitle": "The principles that guide everything we do.",
+    "roles": {
+      "ceo": "CEO & Founder",
+      "cto": "CTO & Co-Founder",
+      "lead_dev": "Lead Developer",
+      "designer": "UI/UX Designer",
+      "marketing": "Marketing Director",
+      "pm": "Project Manager"
+    },
+  "ceo": {
+    "descriptionTitle": "About Mohamad",
+    "description": "With over 4 years of experience in web development, mobile applications, and digital marketing strategies, Alzaibak Mohamad holds a Bachelor's degree in Digital Solutions Design and Development from HETIC. I founded Diphant to make digital technologies accessible and effective for all businesses.",
+    "quote": "Technology should make business easier. At Diphant, we create simple, powerful, and effective digital solutions that help companies succeed.",
+    "stats": {
+      "years": "Years of Experience",
+      "projects": "Projects Completed",
+      "passion": "Dedication"
+    }
+  },
+  "values": {
+    "dedication": {
+      "title": "Dedication",
+      "description": "We put our full effort into making every project a success."
+    },
+    "excellence": {
+      "title": "Excellence",
+      "description": "We aim for quality and efficiency in every project."
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "We work closely with our clients to achieve their goals."
+    }
+  }
+}
+}
