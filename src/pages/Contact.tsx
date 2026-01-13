@@ -82,8 +82,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-medium text-foreground">{t("contact.email")}</div>
-                    <a href="mailto:info@diphant.fr" className="text-primary hover:underline">
-                      info@diphant.fr
+                    <a href="mailto:mohamadalzaibak.8@gmail.com" className="text-primary hover:underline">
+                      mohamadalzaibak.8@gmail.com
                     </a>
                   </div>
                 </div>
@@ -94,8 +94,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="font-medium text-foreground">{t("contact.phone")}</div>
-                    <a href="tel:+33123456789" className="text-muted-foreground hover:text-foreground">
-                      +33 1 23 45 67 89
+                    <a href="tel:+33752323502" className="text-muted-foreground hover:text-foreground">
+                      +33 7 52 32 35 02
                     </a>
                   </div>
                 </div>
@@ -139,13 +139,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Info Box */}
-              <div className="glass rounded-2xl p-6">
-                <h3 className="font-semibold text-foreground mb-2">✉️ {t("contact.unlimitedEmails")}</h3>
-                <p className="text-sm text-muted-foreground">
-                  {t("contact.unlimitedEmailsDesc")}
-                </p>
-              </div>
             </motion.div>
 
             {/* Contact Form */}

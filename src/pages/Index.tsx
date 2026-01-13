@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { useTranslation } from "react-i18next";
-import { Clock, Mail, MessageCircle } from "lucide-react";
+import { Clock, Mail, MessageCircle, Phone } from "lucide-react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
@@ -74,8 +74,8 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-medium text-foreground">{t("contact.email")}</div>
-                    <a href="mailto:info@diphant.fr" className="text-primary hover:underline">
-                      info@diphant.fr
+                    <a href="mailto:mohamadalzaibak.8@gmail.com" className="text-primary hover:underline">
+                      mohamadalzaibak.8@gmail.com
                     </a>
                   </div>
                 </div>
@@ -97,6 +97,17 @@ const Index = () => {
                     </div>
                   </div>
                 </a>
+                  <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-6 h-6 text-primary" />
+                  </div>
+                  <div>
+                    <div className="font-medium text-foreground">{t("contact.phone")}</div>
+                    <a href="tel:+33752323502" className="text-muted-foreground hover:text-foreground">
+                      +33 7 52 32 35 02
+                    </a>
+                  </div>
+                </div>
               </div>
             </motion.div>
 

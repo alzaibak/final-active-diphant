@@ -9,7 +9,7 @@ import PageHero from "../components/PageHero";
 import { Button } from "../components/ui/button";
 import { allProjects, categories } from "../data/allProjects";
 
-const categoryKeys = ["all", "website", "webapp", "mobileapp", "marketing", "branding"];
+const categoryKeys = ["all", "website", "webapp", "mobileapp", "marketing"];
 
 export default function Projects() {
   const { t, i18n } = useTranslation();
@@ -27,8 +27,7 @@ export default function Projects() {
       "website": { en: "Website", fr: "Site Web", ar: "موقع ويب" },
       "webapp": { en: "Web Application", fr: "Application Web", ar: "تطبيق ويب" },
       "mobileapp": { en: "Mobile Application", fr: "Application Mobile", ar: "تطبيق موبايل" },
-      "marketing": { en: "Digital Marketing", fr: "Marketing Digital", ar: "تسويق رقمي" },
-      "branding": { en: "Branding", fr: "Branding", ar: "العلامة التجارية" }
+      "marketing": { en: "Digital Marketing", fr: "Marketing Digital", ar: "تسويق رقمي" }
     };
     return categoryMap[key]?.[lang] || categoryMap[key]?.en || "";
   };
@@ -52,7 +51,7 @@ export default function Projects() {
       />
 
       {/* Filter Section */}
-      <section className="py-8 border-b border-border sticky top-16 md:top-20 bg-background/80 backdrop-blur-lg z-40">
+      <section className="py-4 border-b border-border sticky top-16 md:top-20 bg-background/80 backdrop-blur-lg z-40">
         <div className="section-container">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
@@ -81,7 +80,7 @@ export default function Projects() {
       {/* Projects Gallery */}
       <section className="section-padding">
         <div className="section-container">
-          <motion.div layout className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <motion.div layout className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
             {filteredProjects.map((project, index) => (
               <motion.article
                 key={project.id}
@@ -98,7 +97,7 @@ export default function Projects() {
                     <motion.img
                       src={project.images[0]} 
                       alt={getText(project.title)}
-                      className="w-full h-full object-fill"
+                      className="object-fill"
                       animate={{ scale: hoveredId === project.id ? 1.1 : 1 }}
                       transition={{ duration: 0.4 }}
                     />

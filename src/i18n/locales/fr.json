@@ -199,7 +199,7 @@
     "emailPlaceholder": "votre@email.com",
     "company": "Entreprise",
     "companyPlaceholder": "Nom de l'entreprise",
-    "phonePlaceholder": "+33 6 12 34 56 78",
+    "phonePlaceholder": "+33 6 12 XX XX XX",
     "projectType": "Type de projet",
     "selectProjectType": "Sélectionnez un type",
     "projectTypes": {
@@ -224,7 +224,7 @@
     "setupNote2": "(30 secondes) et remplacez la clé d’accès dans le code. Gratuit et illimité !",
     "whatsapp": "WhatsApp",
     "whatsappChat": "Discuter sur WhatsApp",
-    "addressValue": "123 Avenue du Digital\n75008 Paris, France"
+    "addressValue": "33100 Bordeaux, France"
   },
   "footer": {
     "description": "Votre partenaire digital pour transformer vos idées en projets numériques.",

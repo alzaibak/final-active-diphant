@@ -245,22 +245,6 @@ export default function ContactForm({ showTitle = true, className = "" }: Contac
           )}
         </Button>
       </form>
-
-      {/* Web3Forms Setup Note */}
-      <div className="mt-6 p-4 rounded-xl bg-primary/5 border border-primary/20">
-        <p className="text-sm text-muted-foreground">
-          <strong className="text-foreground">Configuration:</strong> {t("contact.setupNote")}{" "}
-          <a 
-            href="https://web3forms.com/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-primary hover:underline"
-          >
-            Web3Forms.com
-          </a>{" "}
-          {t("contact.setupNote2")}
-        </p>
-      </div>
     </div>
   );
 }

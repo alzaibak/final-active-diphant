@@ -10,10 +10,15 @@ const stepKeys = ["discovery", "design", "development", "launch", "support"];
 export default function Strategy() {
   const { t } = useTranslation();
   const ref = useRef(null);
+
+  // ✅ Works for both mobile & desktop
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="section-padding relative overflow-hidden bg-secondary/20">
+    <section
+      ref={ref}
+      className="section-padding relative overflow-hidden bg-secondary/20"
+    >
       {/* Background decorations */}
       <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-1/4 w-72 h-72 bg-accent/5 rounded-full blur-3xl" />
@@ -38,7 +43,7 @@ export default function Strategy() {
         </motion.div>
 
         {/* Wave Timeline - Desktop */}
-        <div ref={ref} className="relative hidden md:block">
+        <div className="relative hidden md:block">
           {/* SVG Wave Line */}
           <svg
             className="absolute top-[72px] left-0 w-full h-24 z-0"
@@ -76,30 +81,36 @@ export default function Strategy() {
             {stepKeys.map((key, index) => {
               const Icon = stepIcons[index];
               const isUp = index % 2 === 0;
-              
+
               return (
                 <motion.div
                   key={key}
                   initial={{ opacity: 0, y: 30 }}
                   animate={isInView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: index * 0.15 }}
-                  className={`flex flex-col items-center ${isUp ? '' : 'pt-24'}`}
+                  className={`flex flex-col items-center ${
+                    isUp ? "" : "pt-24"
+                  }`}
                 >
                   {/* Circle with Icon */}
                   <motion.div
                     initial={{ scale: 0 }}
                     animate={isInView ? { scale: 1 } : {}}
-                    transition={{ duration: 0.4, delay: index * 0.15 + 0.2, type: "spring" }}
+                    transition={{
+                      duration: 0.4,
+                      delay: index * 0.15 + 0.2,
+                      type: "spring",
+                    }}
                     className="relative group mb-5"
                   >
                     {/* Outer glow ring */}
                     <div className="absolute inset-[-8px] rounded-full bg-gradient-to-br from-primary/30 to-accent/30 blur-lg opacity-0 group-hover:opacity-100 transition-all duration-500" />
-                    
+
                     {/* Number badge */}
                     <div className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-sm font-bold text-primary-foreground shadow-lg z-10">
                       {index + 1}
                     </div>
-                    
+
                     {/* Main circle */}
                     <div className="w-28 h-28 rounded-full bg-card border-2 border-border flex items-center justify-center relative group-hover:border-primary/50 transition-all duration-300 shadow-xl">
                       <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center group-hover:from-primary/20 group-hover:to-accent/20 transition-all duration-300">
@@ -137,7 +148,7 @@ export default function Strategy() {
           <div className="space-y-8">
             {stepKeys.map((key, index) => {
               const Icon = stepIcons[index];
-              
+
               return (
                 <motion.div
                   key={key}
@@ -151,6 +162,7 @@ export default function Strategy() {
                     <div className="w-16 h-16 rounded-full bg-card border-2 border-primary/30 flex items-center justify-center shadow-lg">
                       <Icon className="w-7 h-7 text-primary" />
                     </div>
+
                     {/* Number badge */}
                     <div className="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-xs font-bold text-primary-foreground">
                       {index + 1}

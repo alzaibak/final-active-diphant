@@ -130,14 +130,14 @@ export default function ProjectDetail() {
           >
             {/* Main Image - Reduced Size */}
             <div 
-              className="relative rounded-2xl overflow-hidden mb-4 aspect-video max-h-[500px] w-[80%] cursor-pointer group mx-auto"
+              className="relative rounded-2xl overflow-hidden mb-4 aspect-video max-h-[500px] w-full cursor-pointer group mx-auto"
               onClick={() => setLightboxOpen(true)}
             >
               <motion.img
                 key={selectedImage}
                 src={project.images[selectedImage]}
                 alt={getText(project.captions[selectedImage])}
-                className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
                 initial={{ opacity: 0, scale: 1.05 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4 }}
@@ -200,7 +200,7 @@ export default function ProjectDetail() {
                   {getText(project.overview.description)}
                 </p>
               </div>
-              <div className="rounded overflow-hidden max-h-[300px]">
+              <div className="rounded-xl overflow-hidden">
                 <img
                   src={project.overview.image}
                   alt={getText(project.overview.title)}
